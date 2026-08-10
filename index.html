@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swet Aparajita — Resort & Hotel, Shantiniketan</title>
+  <meta name="description" content="A peaceful Shantiniketan retreat known for warm hospitality, comfortable stays, nature surroundings, and family-friendly amenities.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="logo-brand">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/>
+            <path d="M12 6a6 6 0 0 1 6 6c0 3.314-2.686 6-6 6s-6-2.686-6-6a6 6 0 0 1 6-6z"/>
+            <path d="M12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Swet Aparajita</span>
+          <span class="logo-sub">Resort & Hotel · Shantiniketan</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#rooms" class="nav-link">Rooms</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#amenities" class="nav-link">Amenities</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#booking" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Desktop Action Buttons -->
+      <div class="nav-actions">
+        <a href="tel:+919433778441" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +91 94337 78441
+        </a>
+        <a href="#booking" class="btn btn-coral">Book Your Stay</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Mobile Menu">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <aside class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <span class="logo-name" style="font-size: 1.2rem;">Swet Aparajita</span>
+      <button class="close-nav-btn" id="closeNavBtn" aria-label="Close Menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+      <li><a href="#rooms" class="mobile-nav-link">Our Rooms</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Signature Experience</a></li>
+      <li><a href="#amenities" class="mobile-nav-link">Amenities</a></li>
+      <li><a href="#location" class="mobile-nav-link">Location Advantage</a></li>
+      <li><a href="#gallery" class="mobile-nav-link">Resort Gallery</a></li>
+      <li><a href="#reviews" class="mobile-nav-link">Guest Reviews</a></li>
+      <li><a href="#booking" class="mobile-nav-link">Plan Your Visit</a></li>
+    </ul>
+    <div class="mobile-nav-actions">
+      <a href="tel:+919433778441" class="btn btn-primary" style="width: 100%;">
+        Call: +91 94337 78441
+      </a>
+      <a href="https://wa.me/919433778441" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">
+        WhatsApp Booking
+      </a>
+    </div>
+  </aside>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      
+      <!-- Rating Badge -->
+      <div class="rating-badge">
+        <span class="stars">★★★★☆</span>
+        <span>4.4 Rating · 91+ Guest Reviews</span>
+      </div>
+
+      <h1 class="hero-title">SWET APARAJITA</h1>
+      <p class="hero-tagline">A Peaceful Shantiniketan Retreat Known For Warm Hospitality</p>
+      
+      <p class="hero-text">
+        Experience a calm escape surrounded by nature, comfortable stays, thoughtful service, and the timeless charm of Shantiniketan.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#booking" class="btn btn-coral">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          Book Your Stay
+        </a>
+
+        <a href="tel:+919433778441" class="btn btn-outline" style="border-color: var(--color-sand); color: var(--color-sand);">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Call Now
+        </a>
+
+        <a href="https://wa.me/919433778441?text=Hello%20Swet%20Aparajita%2C%20I%20would%20like%20to%20inquire%20about%20a%20stay." target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.764.459 3.486 1.332 5.006L2 22l5.127-1.344c1.464.799 3.119 1.22 4.885 1.22 5.507 0 9.988-4.481 9.988-9.989 0-5.508-4.481-9.987-9.988-9.987zm5.824 14.161c-.246.692-1.233 1.267-1.71 1.328-.476.061-1.082.285-3.568-.692-2.983-1.173-4.908-4.204-5.056-4.402-.149-.197-1.206-1.606-1.206-3.063 0-1.458.761-2.176 1.03-2.471.268-.295.582-.369.776-.369.194 0 .388.002.557.01.179.009.418-.068.654.5.246.592.836 2.04.91 2.189.074.149.124.322.025.518-.099.197-.149.322-.298.497-.149.175-.313.392-.447.527-.149.149-.304.312-.131.609.173.297.771 1.272 1.656 2.06 1.139 1.014 2.1 1.328 2.398 1.476.298.149.472.124.646-.074.175-.198.746-.869.944-1.167.198-.298.396-.248.669-.149.273.099 1.741.821 2.039.97.298.149.497.223.571.347.075.124.075.719-.171 1.411z"/>
+          </svg>
+          WhatsApp Booking
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/919433778441?text=Hello%20Swet%20Aparajita%2C%20I%20would%20like%20to%20book%20a%20room." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Book on WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.764.459 3.486 1.332 5.006L2 22l5.127-1.344c1.464.799 3.119 1.22 4.885 1.22 5.507 0 9.988-4.481 9.988-9.989 0-5.508-4.481-9.987-9.988-9.987zm5.824 14.161c-.246.692-1.233 1.267-1.71 1.328-.476.061-1.082.285-3.568-.692-2.983-1.173-4.908-4.204-5.056-4.402-.149-.197-1.206-1.606-1.206-3.063 0-1.458.761-2.176 1.03-2.471.268-.295.582-.369.776-.369.194 0 .388.002.557.01.179.009.418-.068.654.5.246.592.836 2.04.91 2.189.074.149.124.322.025.518-.099.197-.149.322-.298.497-.149.175-.313.392-.447.527-.149.149-.304.312-.131.609.173.297.771 1.272 1.656 2.06 1.139 1.014 2.1 1.328 2.398 1.476.298.149.472.124.646-.074.175-.198.746-.869.944-1.167.198-.298.396-.248.669-.149.273.099 1.741.821 2.039.97.298.149.497.223.571.347.075.124.075.719-.171 1.411z"/>
+    </svg>
+  </a>
+
+  <!-- ABOUT SECTION -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        
+        <!-- Left Image Composition -->
+        <div class="about-images">
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80" alt="Swet Aparajita Resort Grounds" class="about-img-main" referrerPolicy="no-referrer">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Resort Interior Room" class="about-img-secondary" referrerPolicy="no-referrer">
+          <div class="about-badge">
+            <div class="about-badge-number">4.4★</div>
+            <div class="about-badge-text">91+ Reviews</div>
+          </div>
+        </div>
+
+        <!-- Right Text Content -->
+        <div class="about-content">
+          <span class="section-tag">Welcome To Swet Aparajita</span>
+          <h2 class="section-title">A Relaxing Stay Near The Heart Of Shantiniketan</h2>
+          
+          <p>
+            Swet Aparajita welcomes families, couples, and travellers looking for a peaceful getaway in Shantiniketan. Combining comfortable accommodation, warm hospitality, and a serene atmosphere, the property offers guests a memorable experience away from the rush of city life.
+          </p>
+          
+          <p>
+            Whether you're visiting for leisure, cultural exploration, or a weekend break, Swet Aparajita provides a relaxing environment where every guest feels at home.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-chip">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              Peaceful Greenery
+            </div>
+            <div class="about-chip">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Warm Hospitality
+            </div>
+            <div class="about-chip">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              Family Friendly
+            </div>
+            <div class="about-chip">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="12 8 8 12 12 16 12 8"/>
+              </svg>
+              Cultural Proximity
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOMS SECTION -->
+  <section class="section-padding rooms-section" id="rooms">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Accommodations</span>
+        <h2 class="section-title">Comfortable & Serene Rooms</h2>
+        <p class="section-subtitle">Choose from our thoughtfully appointed rooms designed for ultimate rest and relaxation during your Shantiniketan visit.</p>
+      </div>
+
+      <div class="rooms-grid">
+        
+        <!-- Room 1: Standard Room -->
+        <div class="room-card">
+          <div class="room-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80" alt="Standard Room" class="room-img" referrerPolicy="no-referrer">
+            <span class="room-type-badge">Standard</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-title">Standard Room</h3>
+            <p class="room-desc">Comfortable accommodation ideal for solo travellers and couples looking for a cozy retreat.</p>
+            
+            <ul class="room-features">
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Comfortable Bed
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Air Conditioning
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Attached Bathroom
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Television
+              </li>
+            </ul>
+
+            <div class="room-footer">
+              <span style="font-size: 0.9rem; color: var(--color-text-muted);">Ideal for 1-2 Guests</span>
+              <a href="#booking" class="btn btn-outline btn-book-room" data-room="Standard Room">Book Standard</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Room 2: Deluxe Room -->
+        <div class="room-card">
+          <div class="room-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80" alt="Deluxe Room" class="room-img" referrerPolicy="no-referrer">
+            <span class="room-type-badge" style="background: var(--color-teal);">Deluxe</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-title">Deluxe Room</h3>
+            <p class="room-desc">Spacious rooms designed for a comfortable family stay with elevated furnishings.</p>
+            
+            <ul class="room-features">
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Larger Room Layout
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Premium Furnishings
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Air Conditioning
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Comfortable Seating Area
+              </li>
+            </ul>
+
+            <div class="room-footer">
+              <span style="font-size: 0.9rem; color: var(--color-text-muted);">Ideal for 2-3 Guests</span>
+              <a href="#booking" class="btn btn-coral btn-book-room" data-room="Deluxe Room">Book Deluxe</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Room 3: Family Suite -->
+        <div class="room-card">
+          <div class="room-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80" alt="Family Suite" class="room-img" referrerPolicy="no-referrer">
+            <span class="room-type-badge" style="background: var(--color-teal-dark);">Suite</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-title">Family Suite</h3>
+            <p class="room-desc">Perfect for families and group travellers seeking ample space and complete relaxation.</p>
+            
+            <ul class="room-features">
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Multiple Beds
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Spacious Family Layout
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Family-Friendly Amenities
+              </li>
+              <li class="room-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Comfortable Stay
+              </li>
+            </ul>
+
+            <div class="room-footer">
+              <span style="font-size: 0.9rem; color: var(--color-text-muted);">Ideal for 4+ Guests</span>
+              <a href="#booking" class="btn btn-outline btn-book-room" data-room="Family Suite">Book Suite</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE EXPERIENCE STRIP -->
+  <section class="section-padding experience-section" id="experience">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Signature Rhythm</span>
+        <h2 class="section-title">A Day At Swet Aparajita</h2>
+        <p class="section-subtitle" style="color: rgba(251, 250, 246, 0.85);">Immerse yourself in the gentle flow of life in Shantiniketan from morning till night.</p>
+      </div>
+
+      <div class="experience-timeline">
+        
+        <!-- Morning -->
+        <div class="experience-card">
+          <span class="timeline-time">Morning</span>
+          <div class="timeline-icon">☀</div>
+          <h3 class="timeline-title">Enjoy Fresh Air</h3>
+          <p class="timeline-desc">Wake up to crisp morning air and quiet nature surroundings across our green resort grounds.</p>
+          <div class="timeline-connector">↓</div>
+        </div>
+
+        <!-- Afternoon -->
+        <div class="experience-card">
+          <span class="timeline-time">Afternoon</span>
+          <div class="timeline-icon">🍽</div>
+          <h3 class="timeline-title">Local Dining</h3>
+          <p class="timeline-desc">Relax and relish fresh, delicious local cuisine prepared with care and authentic flavors.</p>
+          <div class="timeline-connector">↓</div>
+        </div>
+
+        <!-- Evening -->
+        <div class="experience-card">
+          <span class="timeline-time">Evening</span>
+          <div class="timeline-icon">🌿</div>
+          <h3 class="timeline-title">Calm Beauty</h3>
+          <p class="timeline-desc">Unwind as dusk settles, experiencing the serene and artistic charm of Shantiniketan.</p>
+          <div class="timeline-connector">↓</div>
+        </div>
+
+        <!-- Night -->
+        <div class="experience-card">
+          <span class="timeline-time">Night</span>
+          <div class="timeline-icon">🏡</div>
+          <h3 class="timeline-title">Peaceful Rest</h3>
+          <p class="timeline-desc">Retire to your quiet, comfortable room for a restful night of deep, peaceful sleep.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES SECTION -->
+  <section class="section-padding" id="amenities">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Guest Comforts</span>
+        <h2 class="section-title">Everything You Need For A Comfortable Stay</h2>
+        <p class="section-subtitle">Thoughtfully curated facilities to make your getaway seamless, relaxing, and enjoyable.</p>
+      </div>
+
+      <div class="amenities-grid">
+        
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h20"/><path d="M5 20v-8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8"/><path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"/></svg>
+          </div>
+          <h3 class="amenity-title">Comfortable Rooms</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="amenity-title">Family Friendly Environment</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="amenity-title">Warm Hospitality</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 0-10 10c0 5.523 4.477 10 10 10s10-4.477 10-10A10 10 0 0 0 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3 class="amenity-title">Nature Surroundings</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3 class="amenity-title">Dining Facilities</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="22" height="13" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="16" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="amenity-title">Free Parking</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="amenity-title">Clean & Hygienic Property</h3>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="amenity-title">Convenient Location</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION ADVANTAGE SECTION -->
+  <section class="section-padding location-section" id="location">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Explore Nearby</span>
+        <h2 class="section-title">Close To Shantiniketan's Most Loved Destinations</h2>
+        <p class="section-subtitle">Stay connected to key cultural hubs, craft markets, and iconic landmarks of Tagore's legacy.</p>
+      </div>
+
+      <div class="location-grid">
+        
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Visva-Bharati Area</h3>
+            <p class="location-desc">Easily accessible for visitors wishing to explore Rabindranath Tagore's historic university campus and ashram grounds.</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Sonajhuri Haat</h3>
+            <p class="location-desc">A short drive away from the famous open-air Saturday crafts market set amidst serene Sonajhuri trees and Baul music.</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Prantik Area</h3>
+            <p class="location-desc">Conveniently positioned near Prantik station and surrounding calm countryside hamlets.</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Local Cultural Attractions</h3>
+            <p class="location-desc">Close to museums, art galleries, Rabindra Bhavana, and traditional handicrafts centers.</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Shopping & Markets</h3>
+            <p class="location-desc">Nearby markets for authentic Kantha stitch embroidery, terracotta crafts, and wooden artifacts.</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-pin">📍</div>
+          <div>
+            <h3 class="location-name">Restaurants & Cafes</h3>
+            <p class="location-desc">Surrounded by charming traditional Bengali eateries and cozy cafes serving local delicacies.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section-padding" id="gallery">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Visual Tour</span>
+        <h2 class="section-title">A Glimpse Of Serenity</h2>
+        <p class="section-subtitle">Explore the serene ambiance, cozy rooms, and verdant outdoor spaces at Swet Aparajita.</p>
+      </div>
+
+      <!-- Filter Category Buttons -->
+      <div class="gallery-filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="exterior">Resort Exterior</button>
+        <button class="filter-btn" data-filter="rooms">Guest Rooms</button>
+        <button class="filter-btn" data-filter="gardens">Gardens</button>
+        <button class="filter-btn" data-filter="dining">Dining Area</button>
+        <button class="filter-btn" data-filter="nature">Nature Views</button>
+        <button class="filter-btn" data-filter="relaxation">Relaxation Spaces</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        
+        <!-- Image 1 -->
+        <div class="gallery-item" data-category="exterior">
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80" alt="Resort Lawn & Exterior" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Resort Lawn & Exterior</span>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="gallery-item" data-category="rooms">
+          <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1000&q=80" alt="Deluxe Room Interior" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Deluxe Room Interior</span>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="gallery-item" data-category="gardens">
+          <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=80" alt="Tranquil Courtyard Garden" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Tranquil Courtyard Garden</span>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="gallery-item" data-category="dining">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Cozy Dining Space" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Cozy Dining Space</span>
+          </div>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="gallery-item" data-category="nature">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80" alt="Sunlit Nature Walkways" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Sunlit Nature Walkways</span>
+          </div>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="gallery-item" data-category="relaxation">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=80" alt="Outdoor Veranda Lounge" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Outdoor Veranda Lounge</span>
+          </div>
+        </div>
+
+        <!-- Image 7 -->
+        <div class="gallery-item" data-category="exterior">
+          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80" alt="Evening Ambiance at Resort" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Evening Ambiance at Resort</span>
+          </div>
+        </div>
+
+        <!-- Image 8 -->
+        <div class="gallery-item" data-category="rooms">
+          <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80" alt="Family Suite Bedroom" class="gallery-img" referrerPolicy="no-referrer">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Family Suite Bedroom</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS SECTION -->
+  <section class="section-padding" id="reviews" style="background-color: var(--color-sand-light);">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">What Guests Appreciate</h2>
+        <p class="section-subtitle">Real experiences shared by families, couples, and travellers who stayed with us.</p>
+      </div>
+
+      <div class="reviews-layout">
+        
+        <!-- Left Column: Review Cards -->
+        <div class="reviews-cards">
+          
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Guests often mention the peaceful atmosphere and welcoming environment that make their stay enjoyable."
+            </p>
+            <div class="review-author">
+              <span class="author-name">Ananya Roy</span>
+              <span class="author-tag">Family Traveller</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Visitors appreciate the cleanliness, comfortable rooms, and friendly service."
+            </p>
+            <div class="review-author">
+              <span class="author-name">Sourav Mukhopadhyay</span>
+              <span class="author-tag">Weekend Guest</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Many travellers highlight the property's relaxing setting and convenient location near Shantiniketan attractions."
+            </p>
+            <div class="review-author">
+              <span class="author-name">Priyadarshini Sen</span>
+              <span class="author-tag">Cultural Enthusiast</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Large Rating Summary Card -->
+        <div class="rating-overview-card">
+          <div class="big-rating">4.4★</div>
+          
+          <div class="google-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+            </svg>
+            Google Rating
+          </div>
+
+          <div class="rating-reviews-count">91+ Verified Reviews</div>
+          <p class="rating-trust-label">Trusted By Families & Travellers Across India</p>
+
+          <a href="https://maps.google.com/?q=Shantiniketan+West+Bengal" target="_blank" rel="noopener" class="btn btn-coral" style="width: 100%;">
+            View On Google Maps
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK YOUR STAY / CONTACT SECTION -->
+  <section class="section-padding booking-section" id="booking">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Plan Your Visit</span>
+        <h2 class="section-title">Reserve Your Stay At Swet Aparajita</h2>
+        <p class="section-subtitle">Reach out to us directly or fill out the booking form below for quick confirmation.</p>
+      </div>
+
+      <div class="booking-grid">
+        
+        <!-- Left: Contact Info & Map -->
+        <div class="contact-info-panel">
+          
+          <div class="contact-detail-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3 style="font-size: 1.1rem; color: var(--color-teal-dark); font-weight: 700;">Address</h3>
+              <p style="color: var(--color-text-muted);">Swet Aparajita<br>Shantiniketan, West Bengal</p>
+            </div>
+          </div>
+
+          <div class="contact-detail-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h3 style="font-size: 1.1rem; color: var(--color-teal-dark); font-weight: 700;">Direct Calling</h3>
+              <p style="color: var(--color-text-muted);">
+                <a href="tel:+919433778441" style="color: var(--color-teal); font-weight: 700;">+91 94337 78441</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-detail-card">
+            <div class="contact-icon">💬</div>
+            <div>
+              <h3 style="font-size: 1.1rem; color: var(--color-teal-dark); font-weight: 700;">WhatsApp Support</h3>
+              <p style="color: var(--color-text-muted);">
+                <a href="https://wa.me/919433778441" target="_blank" rel="noopener" style="color: #25D366; font-weight: 700;">Chat on WhatsApp (+91 94337 78441)</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-container">
+            <iframe 
+              title="Swet Aparajita Location Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.764839840428!2d87.676!3d23.681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQwJzUxLjYiTiA4N8KwNDAnMzMuNiJF!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+
+        </div>
+
+        <!-- Right: Interactive Booking Form -->
+        <div class="booking-form-card">
+          <h3 style="font-size: 1.4rem; color: var(--color-teal-dark); margin-bottom: 1.25rem;">Booking Request Form</h3>
+          
+          <form id="bookingForm">
+            
+            <div class="form-group">
+              <label for="fullName" class="form-label">Full Name *</label>
+              <input type="text" id="fullName" class="form-input" placeholder="e.g. Rahul Banerjee" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number *</label>
+              <input type="tel" id="phone" class="form-input" placeholder="+91 98300 00000" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkinDate" class="form-label">Check-in Date *</label>
+                <input type="date" id="checkinDate" class="form-input" required>
+              </div>
+
+              <div class="form-group">
+                <label for="checkoutDate" class="form-label">Check-out Date *</label>
+                <input type="date" id="checkoutDate" class="form-input" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="guestsCount" class="form-label">Guests</label>
+                <select id="guestsCount" class="form-select">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5+">5+ Guests (Group)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="roomTypeSelect" class="form-label">Room Type</label>
+                <select id="roomTypeSelect" class="form-select">
+                  <option value="Standard Room">Standard Room</option>
+                  <option value="Deluxe Room" selected>Deluxe Room</option>
+                  <option value="Family Suite">Family Suite</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="messageText" class="form-label">Special Requests / Message</label>
+              <textarea id="messageText" class="form-textarea" placeholder="Any arrival preferences or specific requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-coral" style="width: 100%; padding: 0.9rem; font-size: 1.05rem;">
+              Request Booking
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand -->
+        <div class="footer-brand">
+          <div class="logo-brand">
+            <div class="logo-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v12M6 12h12"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">Swet Aparajita</span>
+              <span class="logo-sub">Resort & Hotel</span>
+            </div>
+          </div>
+          <p>
+            A Peaceful Shantiniketan Retreat Known For Warm Hospitality, Serene Surroundings, and Unforgettable Stays.
+          </p>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Property</a></li>
+            <li><a href="#rooms">Rooms & Suites</a></li>
+            <li><a href="#amenities">Resort Amenities</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#reviews">Guest Reviews</a></li>
+            <li><a href="#booking">Plan Your Stay</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact Info -->
+        <div>
+          <h4 class="footer-heading">Direct Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+919433778441">Phone: +91 94337 78441</a></li>
+            <li><a href="https://wa.me/919433778441" target="_blank" rel="noopener">WhatsApp: +91 94337 78441</a></li>
+            <li><span style="color: rgba(251,250,246,0.75);">Shantiniketan, West Bengal</span></li>
+            <li><span style="color: #FFC107;">Rating: 4.4★ (91 Reviews)</span></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Social / Hospitality Badge -->
+        <div>
+          <h4 class="footer-heading">Shantiniketan Retreat</h4>
+          <p style="font-size: 0.9rem; color: rgba(251, 250, 246, 0.7); line-height: 1.6; margin-bottom: 1rem;">
+            Experience authentic Bengali hospitality surrounded by nature and peace.
+          </p>
+          <div style="display: flex; gap: 0.75rem; color: var(--color-sand);">
+            <a href="#" aria-label="Facebook" style="padding: 0.5rem; background: rgba(255,255,255,0.1); border-radius: 50%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" style="padding: 0.5rem; background: rgba(255,255,255,0.1); border-radius: 50%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" style="padding: 0.5rem; background: rgba(255,255,255,0.1); border-radius: 50%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="var(--color-teal-dark)"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear">2026</span> Swet Aparajita. All rights reserved.</p>
+        <p>Shantiniketan, West Bengal · Phone: +91 94337 78441</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="modal-backdrop" id="lightboxModal">
+    <div class="modal-content lightbox-content">
+      <button class="modal-close-btn" id="closeLightbox" style="color: white;">&times;</button>
+      <img id="lightboxImg" src="" alt="Gallery Preview" class="lightbox-img">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- BOOKING CONFIRMATION MODAL -->
+  <div class="modal-backdrop" id="confirmModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closeConfirmModal">&times;</button>
+      <div style="width: 56px; height: 56px; background: var(--color-sand); color: var(--color-teal); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+        ✓
+      </div>
+      <h3 style="font-size: 1.6rem; color: var(--color-teal-dark); margin-bottom: 0.5rem;">Booking Request Prepared!</h3>
+      <p style="color: var(--color-text-muted); font-size: 0.95rem;">
+        Your reservation request details have been formatted. You can send them directly to our team via WhatsApp for instant confirmation.
+      </p>
+
+      <div id="confirmDetails"></div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.5rem;">
+        <a id="waConfirmBtn" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; padding: 0.85rem;">
+          Send via WhatsApp Now
+        </a>
+        <button id="closeConfirmModalBtn" onclick="document.getElementById('confirmModal').classList.remove('active'); document.body.style.overflow = 'auto';" class="btn btn-outline" style="width: 100%;">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
